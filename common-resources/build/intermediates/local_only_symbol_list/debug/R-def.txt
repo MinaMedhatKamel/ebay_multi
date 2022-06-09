@@ -1,0 +1,32 @@
+R_DEF: Internal format may change without notice
+local
+array com_google_android_gms_fonts_certs
+array com_google_android_gms_fonts_certs_dev
+array com_google_android_gms_fonts_certs_prod
+color black
+color black_transparent
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
+color gray_600
+color green_400
+color green_500
+color green_700
+color white
+drawable bg
+drawable chevron
+drawable ic_calendar
+drawable ic_check
+drawable ic_document
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable ic_visits
+drawable share
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string description_title
+string details_title
+string furnishing_title
+string information_title
+style AppTheme

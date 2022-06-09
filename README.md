@@ -98,7 +98,7 @@ curl --basic -u candidate:LnpwL7HoZjTL --user-agent "some-user-agent" https://ga
 ## Your comments / remarks
 
 How did you approach the task?
-- I started with modularizing my component and detecting what was needed from the requirement.
+- I started with modularizing my components and detecting what was needed from the requirement.
 - I specified the layers needed and started to implement them from the most abstracted one to the outer layer.
 - I put the common resource and layouts and style in a shared module to use through the app
 - it is my first time working with a compose in a multi-module project.
@@ -115,8 +115,8 @@ How did you approach the task?
   - unit test (junit)
   - ui test (espresso) (integration only)
 
-What architecture-layers did you create and why?
-I used a clean architecture with multi-module project integrated with repository pattern and MVVM architecture pattern.
+What architecture layers did you create and why?
+I used a clean architecture with a multi-module project integrated with the repository pattern and MVVM architecture pattern.
 - data layer:
   - contains the setup of the:
     - network layer.
@@ -124,16 +124,16 @@ I used a clean architecture with multi-module project integrated with repository
     - repositories
     - data mapping.
 - domain layer:
-  - contains the business usecases in our case we have only on business case which is retreving the ADS.
+  - contains the business use-cases in our case we have only one business case which is retrieving the ADS.
 - presentation layers:
-  - in multi-modules projects usually we create a new module for each feature or implement data
+  - in multi-modules projects usually, create a new module for each feature or implement data
 - common-resources layer
   - contains the shared resources and styles that can be used through the features.
-  
+
 What would you do if you had more time?
-  - migrate to kotlin DSL.
-  - add more unit testes for the logic i just did a POC of how to test.
-  - add compose ui test I just put the setup of the espresso but usually we test compose with another way.
+- migrate to kotlin DSL.
+- add more unit tests for the logic I just did a POC of how to test.
+- add compose UI test I just put the setup of the espresso but usually we test compose with another way.
 
 Which trade-offs did you take?
 

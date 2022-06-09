@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="ExtraTranslation">EbayKCodingChallenge</string>
+    <string name="furnishing_title" tools:ignore="ExtraTranslation">Ausstattung</string>
+    <string name="details_title" tools:ignore="ExtraTranslation">Details</string>
+    <string name="information_title" tools:ignore="ExtraTranslation">Weitere Informationen</string>
+    <string name="description_title" tools:ignore="ExtraTranslation">Beschreibung</string>
+</resources>

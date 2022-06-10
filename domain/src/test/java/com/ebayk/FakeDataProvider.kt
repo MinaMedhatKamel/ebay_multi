@@ -13,7 +13,7 @@ class FakeDataProvider {
                     "https://gateway.ebay-kleinanzeigen.de/coding-challenge/img/21YAAOSwYEFhSgCC_57.jpeg",
                     "https://gateway.ebay-kleinanzeigen.de/coding-challenge/img/21YAAOSwYEFhSgCC_40.jpeg",
                 ),
-                BasicInfoSection("", "", "", "", "", ""),
+                BasicInfoSection("", "", "", "", "", "", "", ""),
                 DetailsSection(listOf(DetailsItem("lable", "value"))),
                 FeaturesSection(listOf("test1", "test2")),
                 DocumentsSection(listOf(Document("", ""))), ""

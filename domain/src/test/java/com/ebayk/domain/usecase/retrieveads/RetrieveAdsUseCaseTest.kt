@@ -35,7 +35,7 @@ internal class RetrieveAdsUseCaseTest{
         //when
         //run suspended test function
         runTest {
-            val notesResult = retrieveAdsUseCase.invoke()
+            val notesResult = retrieveAdsUseCase.invoke("1118635128")
 
             //then
             coVerify(exactly = 1) { notesRepository.requestAds("test") }

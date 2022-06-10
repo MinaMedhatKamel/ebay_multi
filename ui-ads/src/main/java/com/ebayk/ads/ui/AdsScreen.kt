@@ -3,7 +3,6 @@ package com.ebayk.ads.ui
 import Document
 import android.content.Intent
 import android.net.Uri
-import android.widget.Toast
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -32,6 +31,7 @@ fun AdsScreen(vm: AdsListViewModel = hiltViewModel()) =
             when (state) {
                 is Loading -> Loading()
                 is AdsListReady -> DetailsScreen(state.ads)
+                is Error -> ErrorView(state.string)
             }
         }
     }
@@ -48,13 +48,19 @@ fun DetailsScreen(ads: AdsModel) {
             Column(Modifier.verticalScroll(rememberScrollState())) {
                 ImagesSection(ads.images) {
                     val theClickedImg = ads.images[it]
-                    Toast.makeText(
-                        context,
-                        "sharing url: $theClickedImg",
-                        Toast.LENGTH_LONG
-                    ).show()
+                    val sendIntent = Intent()
+                    sendIntent.action = Intent.ACTION_SEND
+                    sendIntent.putExtra(
+                        Intent.EXTRA_TEXT,
+                        "Send a simple text"
+                    )
+                    sendIntent.type = "text/plain"
+                    startActivity(context, sendIntent, null)
                 }
-                BasicSection(ads.basicInfoSection)
+                BasicSection(ads.basicInfoSection) {
+                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse(it))
+                    context.startActivity(intent)
+                }
                 SectionSeprator()
                 Section(title = R.string.details_title, modifier = Modifier.height(300.dp)) {
                     DetailsListView(ads.detailsSection)
@@ -80,7 +86,7 @@ fun DetailsScreen(ads: AdsModel) {
                         style = bodyMediumBlack14,
                         textAlign = TextAlign.Start,
                         modifier = Modifier
-                            .padding( 8.dp)
+                            .padding(8.dp)
                             .fillMaxWidth()
                     )
                 }
@@ -100,7 +106,7 @@ fun DetailsScreenPreview() {
                 "https://gateway.ebay-kleinanzeigen.de/coding-challenge/img/21YAAOSwYEFhSgCC_57.jpeg",
                 "https://gateway.ebay-kleinanzeigen.de/coding-challenge/img/21YAAOSwYEFhSgCC_40.jpeg",
             ),
-            BasicInfoSection("", "", "", "", "", ""),
+            BasicInfoSection("", "", "", "", "", "", "", ""),
             DetailsSection(listOf(DetailsItem("lable", "value"))),
             FeaturesSection(listOf("test1", "test2")),
             DocumentsSection(listOf(Document("", ""))), ""

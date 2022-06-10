@@ -1,6 +1,7 @@
 package com.ebayk.theme
 
 import androidx.compose.material.Typography
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.ExperimentalTextApi
 import androidx.compose.ui.text.TextStyle
 
@@ -11,7 +12,6 @@ import androidx.compose.ui.text.googlefonts.Font
 import androidx.compose.ui.text.googlefonts.GoogleFont
 
 import androidx.compose.ui.unit.sp
-
 
 
 @OptIn(ExperimentalTextApi::class)
@@ -47,6 +47,15 @@ val titleLarge = TextStyle(
     fontSize = 20.sp,
     lineHeight = 28.sp,
     letterSpacing = 0.sp,
+    color = Color.Black
+)
+val titleLargeError = TextStyle(
+    fontFamily = fontRobotoBold,
+    fontWeight = FontWeight.Bold,
+    fontSize = 20.sp,
+    lineHeight = 28.sp,
+    letterSpacing = 0.sp,
+    color = Color.Red
 )
 
 val bodyMedium = TextStyle(
@@ -54,7 +63,8 @@ val bodyMedium = TextStyle(
     fontWeight = FontWeight.Normal,
     fontSize = 20.sp,
     lineHeight = 28.sp,
-    letterSpacing = 0.sp
+    letterSpacing = 0.sp,
+    color = Color.Black
 )
 val bodyMediumWite12 = TextStyle(
     fontFamily = fontRobotoMeduim,
@@ -92,7 +102,8 @@ val labelSmall = TextStyle(
     fontWeight = FontWeight.Medium,
     fontSize = 11.sp,
     lineHeight = 16.sp,
-    letterSpacing = 0.5.sp
+    letterSpacing = 0.5.sp,
+    color = Color.Black
 )
 
 // Set of Material typography styles to start with

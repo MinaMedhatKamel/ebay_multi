@@ -11,7 +11,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
@@ -53,7 +52,9 @@ fun SimpleDetailsRow(lable: String, value: String, modifier: Modifier = Modifier
             text = lable,
             style = bodyMediumBlack14,
             textAlign = TextAlign.Start,
-            modifier = Modifier.padding(start = 4.dp).weight(1f)
+            modifier = Modifier
+                .padding(start = 4.dp)
+                .weight(1f)
         )
         Text(
             text = value,
@@ -94,6 +95,7 @@ fun Section(
     }
 
 }
+
 @Composable
 fun Loading() {
     Column(
@@ -106,11 +108,28 @@ fun Loading() {
         CircularProgressIndicator()
     }
 }
+
+@Composable
+fun ErrorView(error: String) {
+    Column(
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center,
+        modifier = Modifier
+            .fillMaxWidth()
+            .fillMaxHeight()
+    ) {
+        Text(
+            text = error,
+            style = titleLargeError
+        )
+    }
+}
+
 @Preview()
 @Composable
 fun SectionPreview() {
     Section(title = R.string.furnishing_title) {
-        SimpleDetailsRow("test lable","15 m2")
+        SimpleDetailsRow("test lable", "15 m2")
         SectionSeprator()
         SimpleRow(imagId = R.drawable.ic_calendar, text = "test")
     }

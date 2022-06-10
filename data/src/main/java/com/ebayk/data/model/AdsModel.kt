@@ -16,6 +16,8 @@ data class BasicInfoSection(
     val title: String,
     val price: String,
     val address: String,
+    val long: String,
+    val lat: String,
     val date: String,
     val numberOfSeen: String,
     val id: String

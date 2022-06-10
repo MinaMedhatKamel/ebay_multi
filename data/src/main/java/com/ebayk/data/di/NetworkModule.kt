@@ -5,7 +5,7 @@ import com.ebayk.data.factory.createAuthInterceptor
 import com.ebayk.data.factory.createEbayApi
 import com.ebayk.data.network.BasicAuthInterceptor
 import com.ebayk.data.network.EbayApi
-import com.ebayk.data.repository.RetrieveAdsRepository
+
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -45,9 +45,4 @@ object NetworkModule {
 
     @Provides
     fun provideEbayApi(client: OkHttpClient): EbayApi = createEbayApi(client)
-
-    @Provides
-    fun provideRetrieveAdsRepository(api: EbayApi): RetrieveAdsRepository {
-        return RetrieveAdsRepository(api)
-    }
 }

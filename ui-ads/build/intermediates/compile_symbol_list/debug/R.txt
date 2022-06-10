@@ -3090,6 +3090,7 @@ int string exposed_dropdown_menu_content_description 0x0
 int string fab_transformation_scrim_behavior 0x0
 int string fab_transformation_sheet_behavior 0x0
 int string furnishing_title 0x0
+int string general_error 0x0
 int string hide_bottom_view_on_scroll_behavior 0x0
 int string icon_content_description 0x0
 int string in_progress 0x0

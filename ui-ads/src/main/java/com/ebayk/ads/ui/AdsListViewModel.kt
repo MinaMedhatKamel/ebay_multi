@@ -4,7 +4,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.ebayk.data.model.AdsModel
-import com.ebayk.domain.usecase.retrieveads.RetrieveAdsUseCase
+import com.ebayk.ads.domain.RetrieveAdsUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.launch

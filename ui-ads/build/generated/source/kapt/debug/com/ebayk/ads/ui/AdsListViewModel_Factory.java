@@ -1,6 +1,6 @@
 package com.ebayk.ads.ui;
 
-import com.ebayk.domain.usecase.retrieveads.RetrieveAdsUseCase;
+import com.ebayk.ads.domain.RetrieveAdsUseCase;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.Factory;
 import javax.annotation.processing.Generated;

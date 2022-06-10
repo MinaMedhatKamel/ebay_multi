@@ -130,6 +130,8 @@ I used a clean architecture with a multi-module project integrated with the repo
 - common-resources layer
   - contains the shared resources and styles that can be used through the features.
 
+Note: as we have only one feature module so I made the layers serve this module. but if we have multi features we have to include the clases and data related to to this feature inside its package
+
 What would you do if you had more time?
 - migrate to kotlin DSL.
 - add more unit tests for the logic I just did a POC of how to test.

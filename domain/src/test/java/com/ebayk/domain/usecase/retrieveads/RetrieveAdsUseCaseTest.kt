@@ -1,7 +1,7 @@
 package com.ebayk.domain.usecase.retrieveads
 
 import com.ebayk.FakeDataProvider
-import com.ebayk.data.repository.RetrieveAdsRepository
+import com.ebayk.ads.data.RetrieveAdsRepository
 import io.mockk.MockKAnnotations
 import io.mockk.coEvery
 import io.mockk.coVerify
@@ -15,14 +15,14 @@ import org.junit.Test
 internal class RetrieveAdsUseCaseTest{
 
     @MockK
-    private lateinit var notesRepository: RetrieveAdsRepository
+    private lateinit var notesRepository: com.ebayk.ads.data.RetrieveAdsRepository
 
-    private lateinit var retrieveAdsUseCase: RetrieveAdsUseCase
+    private lateinit var retrieveAdsUseCase: com.ebayk.ads.domain.RetrieveAdsUseCase
 
     @Before
     fun setUp() {
         MockKAnnotations.init(this)
-        retrieveAdsUseCase = RetrieveAdsUseCase(notesRepository)
+        retrieveAdsUseCase = com.ebayk.ads.domain.RetrieveAdsUseCase(notesRepository)
     }
 
     @Test

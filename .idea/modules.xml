@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EbayKCodingChallenge.iml" filepath="$PROJECT_DIR$/.idea/modules/EbayKCodingChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/EbayKCodingChallenge.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/EbayKCodingChallenge.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/EbayKCodingChallenge.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/EbayKCodingChallenge.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/EbayKCodingChallenge.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/EbayKCodingChallenge.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/EbayKCodingChallenge.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/EbayKCodingChallenge.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-resources/EbayKCodingChallenge.common-resources.iml" filepath="$PROJECT_DIR$/.idea/modules/common-resources/EbayKCodingChallenge.common-resources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-resources/EbayKCodingChallenge.common-resources.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/common-resources/EbayKCodingChallenge.common-resources.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-resources/EbayKCodingChallenge.common-resources.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common-resources/EbayKCodingChallenge.common-resources.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-resources/EbayKCodingChallenge.common-resources.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/common-resources/EbayKCodingChallenge.common-resources.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/EbayKCodingChallenge.data.iml" filepath="$PROJECT_DIR$/.idea/modules/data/EbayKCodingChallenge.data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/EbayKCodingChallenge.data.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/data/EbayKCodingChallenge.data.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/EbayKCodingChallenge.data.main.iml" filepath="$PROJECT_DIR$/.idea/modules/data/EbayKCodingChallenge.data.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/EbayKCodingChallenge.data.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/data/EbayKCodingChallenge.data.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/EbayKCodingChallenge.domain.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/EbayKCodingChallenge.domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/EbayKCodingChallenge.domain.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/EbayKCodingChallenge.domain.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/EbayKCodingChallenge.domain.main.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/EbayKCodingChallenge.domain.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/EbayKCodingChallenge.domain.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/EbayKCodingChallenge.domain.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ui-vehiclelist/EbayKCodingChallenge.ui-ads.iml" filepath="$PROJECT_DIR$/.idea/modules/ui-vehiclelist/EbayKCodingChallenge.ui-ads.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ui-ads/EbayKCodingChallenge.ui-ads.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/ui-ads/EbayKCodingChallenge.ui-ads.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ui-ads/EbayKCodingChallenge.ui-ads.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ui-ads/EbayKCodingChallenge.ui-ads.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ui-ads/EbayKCodingChallenge.ui-ads.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/ui-ads/EbayKCodingChallenge.ui-ads.unitTest.iml" />
+    </modules>
+  </component>
+</project>

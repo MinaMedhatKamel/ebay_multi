@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.compose.ui:ui-text-google-fonts:1.2.0-beta01@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a741dc73c465a03a83fbb23279d3feef/transformed/jetified-ui-text-google-fonts-1.2.0-beta01/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a741dc73c465a03a83fbb23279d3feef/transformed/jetified-ui-text-google-fonts-1.2.0-beta01/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a741dc73c465a03a83fbb23279d3feef/transformed/jetified-ui-text-google-fonts-1.2.0-beta01/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.compose.ui/ui-text-google-fonts/1.2.0-beta01/89e8f63894b6d25dcbfdee3535c291d17d7338c/ui-text-google-fonts-1.2.0-beta01-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
